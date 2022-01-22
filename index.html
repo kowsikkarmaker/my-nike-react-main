@@ -7,21 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4784b8dd77.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@400;500;600&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+    <header class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex col-sm-12">
             <div class="container-fluid">
-                <a class="navbar-brand ms-2" href="#"><img src="icons/Logo.png" alt=""></a>
+                <a class="navbar-brand " href="#"><img src="icons/Logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse me-2" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item me-4">
                         <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
@@ -38,8 +44,71 @@
                 </ul>
             </div>
         </nav>
+
+        <section class="row">
+
+            <div class="row justify-content-center align-items-center d-flex justify-content-between">
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/Group 33092.png" alt="">
+                </div>
+                <div class="col-lg-5 header-diteils">
+                    <h1 class="text-uppercase">
+                        <span>Nike React</span>
+                        <br>
+                        Infinity Run 2
+                    </h1>
+                    <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, asperiores.
+                    </p>
+                    <button type="button" class="btn btn-primary px-3 py-2"> <i class="fas fa-shopping-cart p-2"></i>
+                        BUY
+                        NOW</button>
+                </div>
+            </div>
+        </section>
     </header>
 
+    <!-- main part -->
+    <main>
+        <section class="container mb-5">
+            <h1>CASUAL SHOES</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col ">
+                    <div class="card p-3">
+                        <img class="bg-light p-5" src="images/Daco_1703273 1.png" class="card-img-top" alt="...">
+
+                        <div class="">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-3">
+                        <img class="bg-light p-4" src="images/image 5.png" class="card-img-top" alt="...">
+                        <div class="">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-3">
+                        <img class="bg-light p-4 " src="images/pngegg 1.png" class="card-img-top" alt="...">
+                        <div class="">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
