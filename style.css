@@ -1,8 +1,16 @@
 .container-fluid a img{
     width: 270px;
 }
+
+.section-part-01{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
 .navbar-nav .li4{
     width: 100px;
+}
+.navbar-nav li a{
+    color: #fa804c ;
 }
 .header-diteils h1{
     font-family: 'Oswald', sans-serif;
